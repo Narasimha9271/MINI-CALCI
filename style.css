@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family:'Arial';
+}
+
+.button{
+  color:#0062ff;
+  background-color: black;
+  width:66px;
+  padding:20px;
+  margin:0 3px;
+  border:2px solid black;
+  border-radius:9px;
+  cursor:pointer;
+  font-size:25px;
+}
+.button:hover{
+  opacity:1;
+  transition: opacity 0.5s;
+
+}
+.row{
+  margin:8px 0;
+}
+.roww input{
+  width:291px;
+  font-size:20px;
+  margin:0;
+  padding:10px 0px;
+  border:2px solid black;
+  border-radius:5px;
+}
